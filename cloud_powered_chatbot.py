@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1s2Tvq3WfzmTTpSZOVee2s5mRYdrOLqOy
 """
 
-!pip install openai boto3 gradio
+pip install openai boto3 gradio
 
-!pip install --upgrade openai gradio
+pip install --upgrade openai gradio
 
-!pip install python-dotenv
+pip install python-dotenv
 
 def chatbot_response(user_input):
     response = openai.ChatCompletion.create(
